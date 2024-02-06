@@ -1,0 +1,347 @@
+.prevbutton {
+	border: none;
+	font-family: "Caveat";
+	font-family: "Montserrat Alternates";
+	font-size: 30px;
+}
+.prevbutton:hover{
+	cursor: pointer;
+	color: #ff0000;
+}
+
+.nextbutton {
+	border: none;
+	font-family: "Caveat";
+	font-family: "Montserrat Alternates";
+	font-size: 30px;
+}
+.nextbutton:hover{
+	cursor: pointer;
+	color: #ff0000;
+}
+
+.pagination {
+	display: inline-block;
+	position: relative;
+	width: 80%;
+	margin: 10%;
+}
+
+.prodcutPrice {
+	position: relative;
+	display: inline-block;
+	left: 7%;
+	margin-top: -10px;
+	top: 7px;
+	font-family: "Caveat";
+	margin-bottom: 10px;
+}
+
+.productName {
+	position: relative;
+	display: inline-block;
+	left: 7%;
+	margin-top: 25px;
+}
+
+.productDescription {
+	position: relative;
+	display: flex;
+	left: 7%;
+	font-size: 25px;
+	margin-top: 5px;
+	height: 100px;
+	font-family: "Black Ops One";
+	max-height: calc(2 * 1.2em);
+        overflow: hidden;
+        text-overflow: ellipsis;
+	width: 90%;
+}
+
+
+
+.productImage {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	height: 60%;
+	left: 10%;
+}
+
+.latestProduct {
+	position: relative;
+	display: inline-block;;
+	width: 370px;
+	height: 500px;
+	border-radius: 20px 20px 20px 20px;
+	background-color: #ffffff;
+	margin: 1%;
+	font-family: "Chakra Petch";
+	font-family: "Rajdhani";
+	font-weight: 999;
+}
+
+.latestProduct:hover {
+	cursor: pointer;
+}
+
+.latestProduct.black {
+	background-color: #000000;
+	color: #ffffff;
+}
+.latestProduct.white {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.latestProducts {
+	position: relative;
+	display: block;
+	position: relative;
+	width: 100%;
+}
+.latestText {
+	position: relative;
+	display: block;
+	font-family: "Rajdhani";
+	font-size: 35px;
+}
+
+.latest {
+	position: relative;
+	display: inline-block;
+	left: 7%;
+	width: 93%;
+}
+
+.arrowRight {
+	position: relative;
+	display: flex;
+	width: 50px;
+	opacity: 0.6;
+	left: 1%;
+	top: -120px;
+}
+.arrowRightHidden{
+	position: relative;
+	display: flex;
+	width: 50px;
+	opacity: 0.6;
+	left: 5%;
+	top: -70px;
+	opacity: 0;
+}
+.arrowLeft {
+	position: relative;
+	display: flex;
+	width: 50px;
+	top: 170px;
+	left: 95%;
+	opacity: 0.6;
+	z-index: 999;
+}
+.arrowLeftHidden {
+	position: relative;
+	display: flex;
+	width: 50px;
+	top: 170px;
+	left: 85%;
+	opacity: 0.6;
+	z-index: 999;
+	opacity: 0;
+}
+
+.scrollableImages {
+    display: flex; 
+    flex-wrap: nowrap;
+}
+
+.categoryImage {
+	height: 150px;
+	margin-left: 4%;
+}
+.categoryImage {
+	cursor: pointer;
+}
+
+.categoryImages {
+	position: relative;
+	display: flex;
+	margin-top: 100px;
+	overflow-x: hidden;
+	justify-content: left;
+	align-items: left;
+	left: 0%;
+}
+
+
+.specialistLink {
+	text-decoration: none;
+}
+
+.specialistLink:hover {
+	text-decoration: underline;
+}
+
+
+.upperSpecialistText {
+	position: relative;
+	display: inline-block;
+	top: -20px;
+	width: 70%;
+	font-size: 14px;
+}
+.lowerSpecialistText{
+	position: relative;
+	display: inline-block;
+	left: 60px;
+	font-size: 14px;
+	top: -17px;
+}
+
+
+.specialistImage {
+	position: relative;
+	display: inline-block;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+}
+.specialist {
+	display: inline-block;
+	position: relative;
+	width: 20%;
+	top: 70px;
+	left: 20%;
+	font-family: "Chakra Petch";
+}
+
+.storeText {
+	color: #000000;
+}
+.categoryTitle {
+	display: inline-block;
+	position: relative;
+	margin-top: 70px;
+	left: 7%;
+	font-size: 50px;
+	color: #555555;
+	font-family: "Chakra Petch";
+	font-family: "Black Ops One";
+	font-family: "Rajdhani";
+	font-weight: 999;
+	width: 60%;
+}
+
+.category {
+	display: flex;
+	position: relative;
+	width: 100%;
+}
+
+
+.promotion {
+	position: relative;
+	display: flex;
+	width: 90%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	height: auto;
+	background-color: #ffffff;
+	font-family: "Cinzel";
+	align-items: center;
+	justify-content: center;
+}
+
+.home {
+	background-color: #f5f5f5;
+}
+
+@media(max-width: 1329px) {
+	.latest {
+		left: 1%;
+	}
+}
+
+@media(max-width: 1197px) {
+	.latest {
+	left: 15%;
+	width: 85%;
+}
+}
+
+@media(max-width: 1000px) {
+	.specialist1 {
+		left: 0px;	
+	}
+	.upperSpecialistText {
+		width: 50%;
+	}
+}
+
+@media(max-width: 990px) {
+	.latest {
+	left: 7%;
+}
+}
+
+@media(max-width: 870px) {
+	.latest {
+	left: 10%;
+	width: 80%;
+	}
+	.latestProduct{
+		width: 80%;
+		height: auto;
+	}
+}
+
+@media(max-width: 815px) {
+	.latest {
+	left: 20%;
+	}
+	.latestProduct {
+		height: auto;
+		margin-bottom: 40px;
+	}
+	.productImage {
+		margin-bottom: 20px;
+	}
+	.lowerSpecialistText {
+		top: -14px;
+		left: 50px;
+	}
+}
+
+
+
+@media (max-width: 617px) {
+	.specialist {
+		display: none;
+	}
+	.categoryTitle {
+		font-size: 35px;
+	}
+	.latestText {
+		font-size: 25px;
+	}
+	.arrowLeft {
+		left: 85%;
+	}
+}
+
+@media (max-width: 500px) {
+	.productDescription {
+		font-size: 17px;
+	}
+	.productName {
+		font-size: 13px;
+	}
+	.prodcutPrice {
+		font-size: 13px;
+	}
+}
